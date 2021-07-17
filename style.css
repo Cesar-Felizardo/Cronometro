@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+
+body {
+    background: black;
+    margin-top: 300px;
+}
+
+* {
+    margin: 0, auto;
+}
+.body-cron {
+    text-align: center;
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px 20px 10px 20px;
+    border-radius: 10px;
+    line-height: 20px;
+}
+.button {
+    padding: 6px;
+    width: 80px;
+    color: white;
+}
+.button:hover {
+    opacity: 0.8;
+}
+h1 {
+   text-align: center;
+   font-family: 'Open Sans Condensed', sans-serif;
+   padding-top: 10px;
+}
+
+#iniciar-gren {
+    background-color: #016601;
+    border-radius: 10px;
+    border:1px
+}
+#pause-yellow {
+    background-color: #979501;
+    border-radius: 10px;
+    border:1px
+}
+#stop-red {
+    background-color: #800000;
+    border-radius: 10px;
+    border:1px
+}
