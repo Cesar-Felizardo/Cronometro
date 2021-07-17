@@ -11,7 +11,7 @@ var s = document.getElementById("iniciar-gren")
 function start() {
     cron = setInterval(() => { timer(); }, tempo);
     document.getElementById("iniciar-gren").disabled = true
-    document.getElementById("iniciar-gren").style.opacity = 0.4
+    document.getElementById("iniciar-gren").style.opacity = 0.5
     document.getElementById("pause-yellow").style.opacity = 10
     document.getElementById("stop-red").style.opacity = 10
 }
@@ -20,7 +20,7 @@ function start() {
 function pause() {
     clearInterval(cron)
     document.getElementById("iniciar-gren").disabled = false
-    document.getElementById("pause-yellow").style.opacity = 0.4
+    document.getElementById("pause-yellow").style.opacity = 0.5
     document.getElementById("iniciar-gren").style.opacity = 10
     document.getElementById("stop-red").style.opacity = 10
     
@@ -35,7 +35,7 @@ function stop() {
 
      document.getElementById("counter").innerText = "00:00:00"
      document.getElementById("iniciar-gren").disabled = false
-     document.getElementById("stop-red").style.opacity = 0.4
+     document.getElementById("stop-red").style.opacity = 0.5
      document.getElementById("iniciar-gren").style.opacity = 10
      document.getElementById("pause-yellow").style.opacity = 10
 }
